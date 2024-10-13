@@ -15,3 +15,13 @@ function sendMessage(text: string, user: User) {
     <ChatWindow :messages="messages" :user="{ name: 'Bob' }" @send-message="sendMessage" />
   </div>
 </template>
+
+<style>
+.app {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rosybrown;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+</style>

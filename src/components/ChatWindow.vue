@@ -22,3 +22,9 @@ function sendMessage(text: string) {
     <MessageInput :user="user" @send="sendMessage" />
   </div>
 </template>
+
+<style scoped>
+div {
+  padding: 1rem;
+}
+</style>
